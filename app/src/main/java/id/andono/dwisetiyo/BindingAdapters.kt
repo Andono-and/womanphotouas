@@ -39,7 +39,7 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
  * Jika permintaan memiliki kesalahan, ini akan menampilkan gambar yang rusak untuk mencerminkan kesalahan koneksi.
  * Ketika permintaan selesai, itu menyembunyikan tampilan gambar.
  */
-@BindingAdapter("WomanApiStatus")
+@BindingAdapter("womanApiStatus")
 fun bindStatus(statusImageView: ImageView, status: WomanApiStatus?) {
     when (status) {
         WomanApiStatus.LOADING -> {
